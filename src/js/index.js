@@ -1,4 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import 'whatwg-fetch';
+import Player from './Player'
 
-render(<p>Hello</p>, document.getElementById('app'));
+render(<Player />, document.getElementById('app'));
